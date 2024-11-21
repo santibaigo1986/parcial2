@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial 2 - Aplicaciones Progresivas - Baigorria Juan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="todo-app">
+            <h2>Cosas x Hacer <img src="images/icon.png" alt="Icono"></h2>
+            <div class="row">
+                <!-- Caja de entrada para tareas -->
+                <input type="text" id="input-box" placeholder="Agregue su tarea">
+                <button onclick="addTask()">Agregar</button> 
+            </div>
+            <!-- Contenedor de la lista de tareas -->
+            <ul id="list-container">
+                <!-- Las tareas se agregarán dinámicamente aquí -->
+            </ul>
+        </div>
+    </div>
+    <!-- Archivo de script -->
+    <script src="script.js" type="module"></script>
+</body>
+</html>
